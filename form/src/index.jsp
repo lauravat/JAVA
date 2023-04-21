@@ -20,24 +20,25 @@
         <div class="input-group">
             <label for="firstName">Ingrese sus nombres:</label>
             <input type="text" id="firstName" name="firstName" placeholder="Primer nombre" class="form-control" required autofocus pattern="[A-Za-z] {2, 40}">
-            <input type="text" id="secondName" name="secondName" placeholder="Segundo nombre" class="form-control" required >
+            <input type="text" id="secondName" name="secondName" placeholder="Segundo nombre" class="form-control" required pattern="[A-Za-z] {2, 40}">
           </div>
           <br>
           <h4>Ingrese sus apellidos</h4>
           <div class="input-group">
-            <input type="text" id="" name="" placeholder="Primer apellido" class="form-control" required >
-            <input type="text" id="" name="" placeholder="Segundo apellido" class="form-control" required >
+            
+            <input type="text" id="" name="" placeholder="Primer apellido" class="form-control" required pattern="[A-Za-z] {2, 40}">
+            <input type="text" id="" name="" placeholder="Segundo apellido" class="form-control" required  pattern="[A-Za-z] {2, 40}">
           </div>
           <br>
           <h4>Digite su correo electronico</h4>
           <div class="input-group mb-3">
-            <input type="text" class="form-control" id="" name="" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2" required >
+            <input type="email" class="form-control" id="email" name="email" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2" required pattern="{,60}">
             <span class="input-group-text" id="basic-addon2">@example.com</span>
           </div>
           <br>
           <h4>Digite su contraseña</h4>
           <div class="input-group mb-3">
-            <input type="password" id="" name="" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Contraseña" required >
+            <input type="password" id="password" name="password" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Contraseña" required pattern="">
           </div>
           <input class="btn btn-primary" type="submit" value="Submit">
     </form>
