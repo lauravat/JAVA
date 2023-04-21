@@ -15,25 +15,25 @@
       <h1>FORMULARIO DE REGISTRO</h1>
       <h4>Ingrese sus nombres</h4>
         <div class="input-group">
-            <input type="text" placeholder="Primer nombre" class="form-control">
-            <input type="text" placeholder="Segundo nombre" class="form-control">
+            <input type="text" placeholder="Primer nombre" class="form-control" required>
+            <input type="text" placeholder="Segundo nombre" class="form-control" required>
           </div>
           <br>
           <h4>Ingrese sus apellidos</h4>
           <div class="input-group">
-            <input type="text" placeholder="Primer apellido" class="form-control">
-            <input type="text" placeholder="Segundo apellido" class="form-control">
+            <input type="text" placeholder="Primer apellido" class="form-control" required>
+            <input type="text" placeholder="Segundo apellido" class="form-control" required>
           </div>
           <br>
           <h4>Digite su correo electronico</h4>
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <input type="text" class="form-control" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
             <span class="input-group-text" id="basic-addon2">@example.com</span>
           </div>
           <br>
           <h4>Digite su contraseña</h4>
           <div class="input-group mb-3">
-            <input type="password" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Contraseña">
+            <input type="password" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Contraseña" required>
           </div>
           <input class="btn btn-primary" type="submit" value="Submit">
     </form>
