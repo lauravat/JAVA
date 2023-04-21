@@ -16,36 +16,33 @@
         <section>
             <form action="" method="post">
       <h1>FORMULARIO DE REGISTRO</h1>
-      <h4>Ingrese sus nombres</h4>
         <div class="input-group">
-            <label for="firstName">Ingrese sus nombres:</label>
-            <input type="text" id="firstName" name="firstName" placeholder="Primer nombre" class="form-control" required autofocus pattern="[A-Za-z] {2, 40}">
-            <input type="text" id="secondName" name="secondName" placeholder="Segundo nombre" class="form-control" required pattern="[A-Za-z] {2, 40}">
+            <label for="firstName" class="typeLetter">Ingrese sus nombres: </label>
+            <input type="text" id="firstName" name="firstName" placeholder="Nombres" class="form-control" required autofocus pattern="[A-Za-z] {2, 40}">
           </div>
           <br>
-          <h4>Ingrese sus apellidos</h4>
           <div class="input-group">
-            
-            <input type="text" id="" name="" placeholder="Primer apellido" class="form-control" required pattern="[A-Za-z] {2, 40}">
-            <input type="text" id="" name="" placeholder="Segundo apellido" class="form-control" required  pattern="[A-Za-z] {2, 40}">
+            <label for="lastName" class="typeLetter">Ingrese sus apellidos: </label>
+            <input type="text" id="lastName" name="lastName" placeholder="Apellidos" class="form-control" required pattern="[A-Za-z] {2, 40}">
           </div>
           <br>
-          <h4>Digite su correo electronico</h4>
           <div class="input-group mb-3">
+            <label for="email" class="typeLetter">Ingrese su correo electronico: </label>
             <input type="email" class="form-control" id="email" name="email" placeholder="Correo electronico" aria-label="Recipient's username" aria-describedby="basic-addon2" required pattern="{,60}">
             <span class="input-group-text" id="basic-addon2">@example.com</span>
           </div>
           <br>
-          <h4>Digite su contraseña</h4>
           <div class="input-group mb-3">
+            <label for="password" class="typeLetter">Ingrese su contraseña: </label>
             <input type="password" id="password" name="password" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Contraseña" required pattern="">
           </div>
-          <input class="btn btn-primary" type="submit" value="Submit">
+          <input class="btn btn-second" type="submit" value="Ingresar">
+          <input class="btn btn-primary" type="submit" value="Enviar">
     </form>
         </section>
         <footer></footer>
+        
     </div>
-    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
