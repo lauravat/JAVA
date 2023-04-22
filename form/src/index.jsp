@@ -16,6 +16,7 @@
         <section>
             <form action="" method="post">
       <h1>FORMULARIO DE REGISTRO</h1>
+                <br>
         <div class="input-group">
             <label for="firstName" class="typeLetter">Ingrese sus nombres: </label>
             <input type="text" id="firstName" name="firstName" placeholder="Nombres" class="form-control" required autofocus pattern="[A-Za-z] {2, 40}">
