@@ -44,7 +44,7 @@
             <br>
             <input class="btn btn-primary" type="submit" value="Enviar">
             <div>
-                <p>¿Ya tiene una cuenta? <a href="login.jsp"> Ingresar</a></p>
+                <p>¿Ya tiene una cuenta? <a href="./index.jsp"> Ingresar</a></p>
             </div>
         </form>
     </section>
