@@ -33,7 +33,7 @@
             <input class="btn btn-primary" type="submit" value="Ingresar">
             <br>
             <div>
-                <p>¿No tiene una cuenta? <a href="./register.jsp"> Registrese</a></p>
+                <p>¿No tiene una cuenta? <a href="./jsp/register.jsp"> Registrese</a></p>
             </div>
         </form>
     </section>
