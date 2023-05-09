@@ -10,3 +10,8 @@ CREATE TABLE `users_tbl` (
 ) ENGINE InnoDB,
   CHARSET utf8mb4,
   COLLATE utf8mb4_0900_ai_ci;
+
+
+
+
+En este trabajo se encuentra un formulario de registro con unos campos que se tienen que llenar de manera obligatoria, se utilizó una conexión a bases de datos con los campos que se piden en el formulario. 
