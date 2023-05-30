@@ -20,7 +20,7 @@
     <nav></nav>
     <section>
         <form action="" method="post" class="formLogin">
-            <img src="../img/empresa.png" alt="image" width="100">
+            <img src="./img/empresa.png" alt="image" width="100">
             <h1>INGRESA</h1>
             <div class="mb-3">
                 <label for="user" class="form-label">Usuario</label>
