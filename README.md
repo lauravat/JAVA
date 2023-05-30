@@ -1,0 +1,2 @@
+En este codigo se puede encontrar el codigo con funcionalidad en donde se encuentran practicas con los repositorio, como la interfaz, el userRepository que es donde se encuentra como se van a mostrar los datos de la bases de datos al momento de ejecutar el testUserRepository que es donde se prueba la funcionalidad, alli, se evidencian las acciones de insertar, organizar por id o eliminar un objeto.
+
